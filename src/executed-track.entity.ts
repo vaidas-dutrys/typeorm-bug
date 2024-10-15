@@ -12,7 +12,7 @@ export class ExecutedTrackEntity {
   @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
   id: number;
 
-  @Column('int', { nullable: true })
+  @Column('int')
   scheduledTrackId: number;
 
   @Column('varchar')
